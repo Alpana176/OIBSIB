@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --text :2rem;
+    --head: clac(1rem + 5vw);
+
+
+}
+.main{
+    min-height: 100vh;
+    height:10vh;
+    margin-top: 2vh;
+    padding: 5px;
+    background: url('https://rare-gallery.com/thumbs/1032188-depth-of-field-photography-wood-macro-India-sculpture-Clay-pottery-ART-wheel-hand-carving-close-up-man-made-object-potters-wheel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+h2{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    line-height: 0.1;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10vh;
+    height: 10vh;
+    padding: 0rem 2rem;
+    color: white;
+
+}
+.navigation ul{
+    list-style: none;
+
+}
+.navigation ul li{
+    display: inline;
+    margin-left: 5px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: rgb(244, 238, 238);
+}
+.main-text{
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-text a {
+    color: white; 
+    background-color: rgb(80, 79, 64);
+    font-size: 35px;
+    font-weight: 900px;
+    padding: 5px;
+    text-decoration: none;
+    margin: 2px;
+    display: block;
+}
+.main-text h3{
+    font-size: 56px
+  
+}
+.main-text p{
+    font-size: 20px;
+    line-height: 0.5;
+}
